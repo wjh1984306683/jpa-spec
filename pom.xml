@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>com.wjh</groupId>
+    <groupId>io.github.wjh</groupId>
     <artifactId>jpa-spec</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
@@ -41,4 +41,11 @@
             <version>1.18.26</version>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>jpa-spec</name>
+            <url>https://maven.pkg.github.com/wjh1984306683/jpa-spec</url>
+        </repository>
+    </distributionManagement>
 </project>
